@@ -10,6 +10,7 @@ cask "griddle" do
   livecheck do
     url :url
     strategy :github_latest
+    regex(/^v?(\d+)$/i)
   end
 
   depends_on macos: ">= :ventura"
