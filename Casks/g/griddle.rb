@@ -1,6 +1,6 @@
 cask "griddle" do
-  version "43"
-  sha256 "272cfe8f346b46b964c3abf0a4a9e04f829d08d9c997b55f9514798f300d13ea"
+  version "44"
+  sha256 "1cddc9d06ea755ac5125f8ade5f0d750de52a6a1dda8a39c1ea668e1f7ddf998"
 
   url "https://github.com/grahamcarlyle/griddle/releases/download/v#{version}/Griddle.zip"
   name "Griddle"
