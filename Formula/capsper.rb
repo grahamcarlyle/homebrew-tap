@@ -7,8 +7,7 @@ class Capsper < Formula
   license :cannot_represent
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
-  depends_on :macos
+  depends_on macos: :ventura
 
   livecheck do
     url :url
